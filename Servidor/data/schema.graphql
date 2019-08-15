@@ -109,7 +109,7 @@ type Query
    
     getClientes(limite:Int,offset:Int,vendedor:String): [Cliente]
     getCliente(id:ID) : Cliente
-    totalClientes(vendedor:String)):String 
+    totalClientes(vendedor:String):String 
     #productos
     obtenerProductos(limite:Int,offset:Int,stock:Boolean):[Producto]
     obtenerProducto(id:ID!):Producto
