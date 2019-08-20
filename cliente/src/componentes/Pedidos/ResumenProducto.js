@@ -13,7 +13,7 @@ const ResumenProducto = ({cantidad,producto}) => {
                 <span className="font-weight-normal">{cantidad}                </span>
             </p>
             <p className="card-text font-weight-bold">
-                Precio:
+                Precio: $
                 <span className="font-weight-normal">{producto.precio}                </span>
             </p>
         </div>

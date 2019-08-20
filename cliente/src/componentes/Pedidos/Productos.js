@@ -12,7 +12,7 @@ class Producto extends Component {
         <Fragment>
             <tr>
                 <td>{producto.nombre}</td>
-                <td>Q {producto.precio}</td>
+                <td>$ {producto.precio}</td>
                 <td>{producto.stock}</td>
                 <td>
                     <input

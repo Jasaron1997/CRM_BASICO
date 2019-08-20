@@ -7,6 +7,7 @@ export const CLIENTES_QUERRY = gql`
 			nombre
 			apellido
 			empresa
+			tipo
 		}
 		totalClientes(vendedor: $vendedor)
 	}

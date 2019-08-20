@@ -79,14 +79,14 @@ id='';
 							<ul className="list-group mt-4">
 								{data.getClientes.map((item) => {
 									//dato curioso si es () es retorno implicito y con {} hay que delcara el return
-
+console.log(item);
 									const { id } = item;
 
 									return (
 										<li key={item.id} className="list-group-item">
 											<div className="row justify-content-between align-items-center">
 												<div className="col-md-8 d-flex justify-content-between align-items-center">
-													{item.nombre} {item.apellido}-{item.empresa}
+													{item.nombre} {item.apellido}-{item.empresa}-{item.tipo} 
 												</div>
 												<div className="col-md-4 d-flex justify-content-end">
 													<Link 
