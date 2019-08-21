@@ -5,11 +5,14 @@ Para acceder por primera vez deben de abrir la terminar de mongo y ejecutar este
 
 use clientes;
 
+Usuario:ADMIN;
+Contraseña:Manag3r!
+
 db.usuarios.insertMany([
 { 
     "_id" : ObjectId("5d55a59b61bfd84c48c5984d"), 
     "usuario" : "ADMIN", 
-    "nombre" : "José Arturo Soto Calderón creador del CRM", 
+    "nombre" : "Administrador del CRM", 
     "password" : "$2b$10$HjzxpbLNMnI1M7/yf.pZee6SvVv7Hsl6aCu8cChfBAKNCHNiyDivC", 
     "rol" : "ADMINISTRADOR", 
     "__v" : NumberInt(0)
