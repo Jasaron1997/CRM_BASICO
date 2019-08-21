@@ -5,7 +5,8 @@ Para acceder por primera vez deben de abrir la terminar de mongo y ejecutar este
 
 use clientes;
 
-Usuario:ADMIN;
+Usuario:ADMIN
+
 Contraseña:Manag3r!
 
 db.usuarios.insertMany([
