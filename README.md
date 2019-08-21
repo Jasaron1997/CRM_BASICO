@@ -1,4 +1,7 @@
 graphql-servidor - ttoken
+Es un CRM Básico el cual fue diseñado y creado por instructor de Udemy Juan De la Torre (https://www.facebook.com/juan.delatorre.1257), para aquello que deseen poder crear y comprender este proyecto les dejo el link del curso en udemy https://www.udemy.com/course/fullstack-react-graphql-y-apollo-de-principiante-a-experto/?couponCode=GRAPHQLJP10&fbclid=IwAR14i92jSh5bDqM83HC2HyJkneaVDksYT7AHkKAS3sUgzNi7CoKM-sEybTY
+
+El Sistema usa las tecnologias y lenguajes de programación de Reactjs y GraphQL. Incluye Apollo Server y Client, React Apollo, MongoDB y NodeJS.
 
 
 Para acceder por primera vez deben de abrir la terminar de mongo y ejecutar este comando 
