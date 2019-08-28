@@ -1,7 +1,9 @@
 import express from 'express';
 // graphql
 import {ApolloServer} from 'apollo-server-express';
-import {typeDefs} from './data/schema';
+//import {typeDefs,typeDefs1} from './data/schema';
+import typeDefs from './data/master.graphql';
+
 import {resolvers} from './data/resolvers';
 import jwt from 'jsonwebtoken';
 import dotenv from 'dotenv'; 

@@ -1,0 +1,6 @@
+import {importSchema} from 'graphql-import';
+
+
+const typeDefs=importSchema('data/inputs.graphql');
+
+export {typeDefs,typeDefs1};
