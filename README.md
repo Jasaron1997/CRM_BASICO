@@ -6,6 +6,9 @@ El Sistema usa las tecnologias y lenguajes de programación de Reactjs y GraphQL
 
 Para acceder por primera vez deben de abrir la terminar de mongo y ejecutar este comando 
 
+Recordad que se debe de tener instalado MongoDB localmente o modificar este archivo ***Servidor/data/db.js***
+
+codigo de MongoDB
 use clientes;
 
 Usuario:ADMIN
